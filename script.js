@@ -17,3 +17,7 @@ let pokemon;
 pokemon = "Squirtle" ;
 // Declare + Assign in one statement
 let pokemon1 = "squirtle";
+
+// u can "PASS IN" a variable into a func
+console.log(pokemon);
+console.log(pokemon1);
