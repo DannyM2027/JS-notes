@@ -43,3 +43,31 @@ score = score * 4;
 console.log(score);
 score = score / 2;
 console.log(score);
+
+score = (score **2 - 23 + 4) * 2 / 4;
+console.log(score);
+
+// STRING CONCATENATION (merging)
+// Concatenate 2 string literals
+// STRING LITERALS ARE CONTAINED IN QUOTE MARKS
+
+let greeting = "Hello " + "friend";
+console.log(greeting);
+
+// Can combine variables with string literals
+let username = "Dannyisaboss";
+console.log("Welcome, " + username + "!!!");
+
+// Concatenation will convert non string data
+console.log( 4 + 5); // add numbers
+console.log( "4" + 5);
+
+// Incrments shortvut
+
+let shlew = 4;
+shlew++;
+console.log(shlew);
+
+let plew = 3;
+plew--;
+console.log(plew)
