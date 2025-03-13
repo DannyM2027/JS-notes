@@ -70,4 +70,47 @@ console.log(shlew);
 
 let plew = 3;
 plew--;
-console.log(plew)
+console.log(plew);
+
+/* Functions:
+    Reusable sets of code statements that perform a pecific task or process */
+
+    // example of declaring a function
+
+function night() {
+    // 3 statements steps commands / instructions
+    console.log("1. shower");
+    console.log("2. teeth");
+    console.log("3. bed");
+
+}
+// To CALL (run) our function, say its name
+night();
+night(); // repeated routine again
+
+/* Funtions are like recipes
+Reliably perform athe same set of actions for a consistent result
+Parameters: are like ingredients/input
+Return values are like the completed meal/OUTPUT
+*/
+
+// Sandwhich function example
+//that reqs PARAMETERS and returns data
+
+// (takes input, spits output)
+
+function makeSandwich(bread, filling, sauce) {
+    // Function BODY (process)
+    let sandwich = filling + " sandwich with " + sauce + " on " + bread;
+    return sandwich;
+}
+// Call a function that returns data
+//store the output in a variable
+let burger = makeSandwich("buns ",  "patty", "ketchup");
+console.log(burger);
+
+
+// TRY the function with differened arguments(input data)
+
+let cyborg = makeSandwich("buns", "ketchup", "buns ketchup pickles cheese put that patty in between its burger what what its burger what what");
+console.log(cyborg);
