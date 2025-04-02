@@ -112,5 +112,23 @@ console.log(burger);
 
 // TRY the function with differened arguments(input data)
 
-let cyborg = makeSandwich("buns", "ketchup", "buns ketchup pickles cheese put that patty in between its burger what what its burger what what");
-console.log(cyborg);
+
+
+
+// Selection (CONDIONALS)
+// A conditional expression is like a QUESTIOn
+// where a boolean is the answer
+
+// Conditions that include COMPARISOn operators
+// get evaluated and result in true/false
+console.log(2 > 1);
+console.log( 2 == 1 );
+
+// ASSign a comparison result to a variable
+let result = (5 > 4);
+console.log(result);
+
+// Comparing Strings  uses dictionary order
+// TRUE if letter is Later in order
+console.log( 'Z' > 'A'); 
+console.log('nikita' == 'shigma');
